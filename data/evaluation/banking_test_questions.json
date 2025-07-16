@@ -1,0 +1,220 @@
+{
+  "loan_products": {
+    "description": "Test questions about loan products, rates, and terms",
+    "questions": [
+      {
+        "id": "LP001",
+        "question": "What are the current personal loan rates for someone with excellent credit?",
+        "expected_keywords": ["APR", "excellent", "6.99%", "7.99%", "8.99%", "Table 1.1"],
+        "category": "personal_loans",
+        "difficulty": "easy"
+      },
+      {
+        "id": "LP002", 
+        "question": "Show me the amortization schedule for a $100,000 loan at 7% for 30 years",
+        "expected_keywords": ["Table 4.1", "$665.30", "principal", "interest", "amortization"],
+        "category": "calculations",
+        "difficulty": "medium"
+      },
+      {
+        "id": "LP003",
+        "question": "What are the FHA mortgage rates and how do they compare to conventional loans?",
+        "expected_keywords": ["FHA", "6.875%", "conventional", "7.125%", "Table 2.1"],
+        "category": "mortgage_comparison",
+        "difficulty": "medium"
+      },
+      {
+        "id": "LP004",
+        "question": "For a $25,000 personal loan, what would be my monthly payment options?",
+        "expected_keywords": ["$25,000", "personal loan", "$32.14", "$13.95", "Table 1.1"],
+        "category": "payment_calculation",
+        "difficulty": "hard"
+      },
+      {
+        "id": "LP005",
+        "question": "What auto loan rates are available for a 2023 vehicle?",
+        "expected_keywords": ["2024-2023", "5.49%", "5.99%", "6.49%", "6.99%", "Table 3.1"],
+        "category": "auto_loans",
+        "difficulty": "easy"
+      }
+    ]
+  },
+
+  "regulatory_compliance": {
+    "description": "Test questions about banking regulations and compliance requirements",
+    "questions": [
+      {
+        "id": "RC001",
+        "question": "What are the FDIC capital requirements for a well-capitalized bank?",
+        "expected_keywords": ["FDIC", "well capitalized", "8%", "10%", "5%", "Table 1.1"],
+        "category": "capital_requirements",
+        "difficulty": "medium"
+      },
+      {
+        "id": "RC002",
+        "question": "When do I need to file a Currency Transaction Report (CTR)?",
+        "expected_keywords": ["CTR", "$10,000", "15 days", "FinCEN Form 104", "Table 2.1"],
+        "category": "bsa_reporting",
+        "difficulty": "easy"
+      },
+      {
+        "id": "RC003",
+        "question": "What are the TILA disclosure requirements for loan origination?",
+        "expected_keywords": ["TILA", "APR", "finance charge", "before consummation", "Table 3.1"],
+        "category": "tila_compliance",
+        "difficulty": "medium"
+      },
+      {
+        "id": "RC004",
+        "question": "What actions are required for an undercapitalized bank?",
+        "expected_keywords": ["undercapitalized", "limit asset growth", "capital plan", "Table 1.2"],
+        "category": "prompt_corrective_action",
+        "difficulty": "hard"
+      },
+      {
+        "id": "RC005",
+        "question": "What triggers a Suspicious Activity Report (SAR) filing?",
+        "expected_keywords": ["SAR", "$5,000", "30 days", "suspicious", "Table 2.2"],
+        "category": "sar_requirements",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "table_cross_references": {
+    "description": "Test questions specifically about table references and cross-references",
+    "questions": [
+      {
+        "id": "TR001",
+        "question": "What information is contained in Table 1.1?",
+        "expected_keywords": ["Table 1.1", "Personal Loan Terms", "APR", "monthly payment"],
+        "category": "direct_table_query",
+        "difficulty": "easy"
+      },
+      {
+        "id": "TR002",
+        "question": "The loan handbook mentions Table 4.1 - what does it show?",
+        "expected_keywords": ["Table 4.1", "amortization", "$100,000", "7.0%", "30 years"],
+        "category": "cross_reference_resolution",
+        "difficulty": "medium"
+      },
+      {
+        "id": "TR003",
+        "question": "Compare the information in Table 2.1 and Table 2.2",
+        "expected_keywords": ["Table 2.1", "Table 2.2", "fixed-rate", "ARM", "adjustable"],
+        "category": "multi_table_comparison",
+        "difficulty": "hard"
+      },
+      {
+        "id": "TR004",
+        "question": "What are the rate adjustments shown in Table M.4?",
+        "expected_keywords": ["Table M.4", "FICO", "credit score", "rate adjustment"],
+        "category": "table_specific_data",
+        "difficulty": "medium"
+      },
+      {
+        "id": "TR005",
+        "question": "Show me the compliance violation matrix from the regulatory manual",
+        "expected_keywords": ["Table 6.1", "violation", "response time", "escalation"],
+        "category": "regulatory_table_reference",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "current_rates": {
+    "description": "Test questions about current rates and pricing from rate sheets",
+    "questions": [
+      {
+        "id": "CR001",
+        "question": "What are today's CD rates for a 12-month certificate?",
+        "expected_keywords": ["CD", "12 month", "4.75%", "Table D.1"],
+        "category": "deposit_rates",
+        "difficulty": "easy"
+      },
+      {
+        "id": "CR002",
+        "question": "What mortgage rates are available for jumbo loans?",
+        "expected_keywords": ["jumbo", "7.375%", "6.875%", "Table M.3"],
+        "category": "jumbo_mortgage_rates",
+        "difficulty": "medium"
+      },
+      {
+        "id": "CR003",
+        "question": "What are the business line of credit rates for a $500,000 credit line?",
+        "expected_keywords": ["business", "line of credit", "$500,000+", "Prime + 1.00%", "Table B.2"],
+        "category": "business_lending",
+        "difficulty": "medium"
+      },
+      {
+        "id": "CR004",
+        "question": "How do savings account rates vary by balance tier?",
+        "expected_keywords": ["savings", "balance tier", "0.10%", "1.00%", "Table D.2"],
+        "category": "tiered_rates",
+        "difficulty": "easy"
+      },
+      {
+        "id": "CR005",
+        "question": "What rate discounts are available for existing customers?",
+        "expected_keywords": ["discount", "0.25%", "$25,000", "checking account", "0.125%"],
+        "category": "relationship_pricing",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "edge_cases": {
+    "description": "Edge cases and challenging scenarios to test system robustness",
+    "questions": [
+      {
+        "id": "EC001",
+        "question": "What happens if I need a loan larger than the maximum shown in your tables?",
+        "expected_keywords": ["maximum", "case-by-case", "loan officer", "approval"],
+        "category": "out_of_range_inquiry",
+        "difficulty": "hard"
+      },
+      {
+        "id": "EC002",
+        "question": "Are there any special rates for credit unions mentioned in your documents?",
+        "expected_keywords": ["not available", "credit union", "documents"],
+        "category": "information_not_available",
+        "difficulty": "medium"
+      },
+      {
+        "id": "EC003",
+        "question": "What Table 15.7 contains?",
+        "expected_keywords": ["Table 15.7", "not found", "not available", "documents"],
+        "category": "non_existent_table",
+        "difficulty": "easy"
+      },
+      {
+        "id": "EC004",
+        "question": "How do your rates compare to Bank of America?",
+        "expected_keywords": ["not available", "competitive", "contact", "comparison"],
+        "category": "competitor_comparison",
+        "difficulty": "medium"
+      },
+      {
+        "id": "EC005",
+        "question": "What are the cryptocurrency lending rates?",
+        "expected_keywords": ["not available", "cryptocurrency", "traditional", "documents"],
+        "category": "product_not_offered",
+        "difficulty": "easy"
+      }
+    ]
+  },
+
+  "evaluation_criteria": {
+    "accuracy_threshold": 0.95,
+    "table_context_threshold": 0.90,
+    "compliance_threshold": 0.95,
+    "cross_reference_threshold": 0.85,
+    "response_time_threshold": 30,
+    "scoring_weights": {
+      "banking_accuracy": 0.30,
+      "table_context": 0.25,
+      "compliance": 0.25,
+      "cross_reference": 0.20
+    }
+  }
+} 

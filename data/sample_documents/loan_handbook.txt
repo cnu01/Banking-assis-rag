@@ -1,0 +1,93 @@
+# CONSUMER LOAN HANDBOOK
+## Version 2024.1 | Effective Date: January 1, 2024
+
+### TABLE OF CONTENTS
+1. Personal Loans (see Table 1.1)
+2. Mortgage Products (see Table 2.1, Table 2.2)
+3. Auto Loans (see Table 3.1)
+4. Amortization Schedules (see Table 4.1)
+
+---
+
+## SECTION 1: PERSONAL LOANS
+
+Personal loans are unsecured credit facilities offered to qualified borrowers. All rates and terms are subject to credit approval and may vary based on creditworthiness.
+
+### Table 1.1: Personal Loan Terms and Rates
+| Loan Amount | Term (Months) | APR (%) | Monthly Payment (per $1,000) |
+|-------------|---------------|---------|------------------------------|
+| $5,000 - $9,999 | 24-36 | 8.99-12.99 | $45.23-$32.14 |
+| $10,000 - $24,999 | 24-60 | 7.99-11.99 | $45.23-$21.74 |
+| $25,000 - $50,000 | 36-84 | 6.99-10.99 | $32.14-$13.95 |
+
+**Important**: For specific payment calculations, refer to the amortization methodology in Section 4.
+
+---
+
+## SECTION 2: MORTGAGE PRODUCTS
+
+Our mortgage division offers competitive rates for primary residences, second homes, and investment properties.
+
+### Table 2.1: Fixed-Rate Mortgage Options
+| Product Type | 15-Year APR | 30-Year APR | Points Available |
+|--------------|-------------|-------------|------------------|
+| Conventional | 6.875% | 7.125% | 0-2 points |
+| FHA | 6.625% | 6.875% | 0-1 points |
+| VA | 6.500% | 6.750% | 0 points |
+| Jumbo | 7.125% | 7.375% | 0-3 points |
+
+### Table 2.2: Adjustable Rate Mortgage (ARM) Options
+| ARM Type | Initial Rate | Adjustment Period | Rate Cap | Lifetime Cap |
+|----------|--------------|-------------------|----------|--------------|
+| 5/1 ARM | 6.250% | 1 year after 5 | 2%/6% | 5% |
+| 7/1 ARM | 6.375% | 1 year after 7 | 2%/6% | 5% |
+| 10/1 ARM | 6.500% | 1 year after 10 | 2%/6% | 5% |
+
+**Note**: ARM rates shown in Table 2.2 are introductory rates. Subsequent adjustments follow the index plus margin structure detailed in loan documentation.
+
+---
+
+## SECTION 3: AUTO LOANS
+
+We finance new and used vehicles with competitive rates and flexible terms.
+
+### Table 3.1: Auto Loan Rates by Vehicle Age
+| Vehicle Age | Term Options | New Vehicle APR | Used Vehicle APR |
+|-------------|--------------|-----------------|------------------|
+| 2024-2023 | 24-84 months | 4.99%-6.99% | 5.99%-7.99% |
+| 2022-2020 | 24-72 months | 5.99%-7.99% | 6.99%-8.99% |
+| 2019-2017 | 24-60 months | 6.99%-8.99% | 7.99%-9.99% |
+| 2016 & Older | 24-48 months | 8.99%-10.99% | 9.99%-11.99% |
+
+**Special Promotions**: See Table 1.1 for current promotional rates that may apply to auto loans during specific periods.
+
+---
+
+## SECTION 4: AMORTIZATION SCHEDULES
+
+Understanding loan amortization is crucial for both customers and loan officers.
+
+### Table 4.1: Sample Amortization - $100,000 at 7.0% for 30 Years
+| Payment # | Payment Amount | Principal | Interest | Remaining Balance |
+|-----------|----------------|-----------|----------|-------------------|
+| 1 | $665.30 | $81.97 | $583.33 | $99,918.03 |
+| 2 | $665.30 | $82.45 | $582.85 | $99,835.58 |
+| 3 | $665.30 | $82.93 | $582.37 | $99,752.65 |
+| 12 | $665.30 | $87.71 | $577.59 | $99,022.12 |
+| 24 | $665.30 | $93.89 | $571.41 | $97,918.45 |
+| 36 | $665.30 | $100.53 | $564.77 | $96,651.23 |
+| 60 | $665.30 | $118.33 | $546.97 | $92,888.34 |
+| 120 | $665.30 | $164.89 | $500.41 | $82,715.69 |
+| 240 | $665.30 | $289.64 | $375.66 | $55,724.58 |
+| 360 | $665.30 | $661.47 | $3.83 | $0.00 |
+
+**Formula**: Monthly Payment = P[r(1+r)^n]/[(1+r)^n-1] where P=Principal, r=Monthly Interest Rate, n=Number of Payments
+
+---
+
+## COMPLIANCE NOTES
+
+- All rates subject to change without notice
+- Products subject to credit approval and income verification
+- Refer to Truth in Lending disclosures for complete terms
+- For questions about specific calculations shown in any table above, contact the loan department 

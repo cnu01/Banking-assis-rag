@@ -1,0 +1,149 @@
+# REGULATORY COMPLIANCE MANUAL
+## Banking Operations Compliance Guide 2024
+
+### DOCUMENT CONTROL
+- Version: 3.2
+- Last Updated: March 15, 2024
+- Next Review: September 15, 2024
+- Classification: Internal Use Only
+
+---
+
+## SECTION 1: FDIC COMPLIANCE REQUIREMENTS
+
+The Federal Deposit Insurance Corporation (FDIC) mandates specific compliance measures for all insured institutions.
+
+### Table 1.1: FDIC Capital Requirements
+| Risk Category | Tier 1 Capital Ratio | Total Capital Ratio | Leverage Ratio |
+|---------------|----------------------|---------------------|----------------|
+| Well Capitalized | ≥ 8% | ≥ 10% | ≥ 5% |
+| Adequately Capitalized | ≥ 6% | ≥ 8% | ≥ 4% |
+| Undercapitalized | < 6% | < 8% | < 4% |
+| Significantly Undercapitalized | < 4% | < 6% | < 3% |
+| Critically Undercapitalized | ≤ 2% | - | - |
+
+**Important**: Institutions must maintain ratios above "Well Capitalized" thresholds to avoid regulatory action. See Table 1.2 for prompt corrective action requirements.
+
+### Table 1.2: Prompt Corrective Action Matrix
+| Capital Category | Mandatory Actions | Discretionary Actions |
+|------------------|-------------------|-----------------------|
+| Well Capitalized | None | None |
+| Adequately Capitalized | None | Restrict capital distributions |
+| Undercapitalized | Limit asset growth; Require capital plan | Restrict capital distributions; Replace management |
+| Significantly Undercapitalized | All above plus: Restrict activities; Divest subsidiaries | Order recapitalization; Restrict deposits |
+| Critically Undercapitalized | All above plus: Appoint conservator/receiver within 90 days | Immediate closure |
+
+---
+
+## SECTION 2: BANK SECRECY ACT (BSA) COMPLIANCE
+
+BSA compliance is fundamental to preventing money laundering and terrorist financing.
+
+### Table 2.1: Currency Transaction Report (CTR) Requirements
+| Transaction Type | Threshold | Reporting Timeframe | Form Required |
+|------------------|-----------|---------------------|---------------|
+| Cash Deposits | > $10,000 | 15 days | FinCEN Form 104 |
+| Cash Withdrawals | > $10,000 | 15 days | FinCEN Form 104 |
+| Currency Exchange | > $10,000 | 15 days | FinCEN Form 104 |
+| Multiple Related Transactions | Aggregate > $10,000 | 15 days | FinCEN Form 104 |
+
+### Table 2.2: Suspicious Activity Report (SAR) Scenarios
+| Activity Type | Threshold | Reporting Timeframe | Key Indicators |
+|---------------|-----------|---------------------|----------------|
+| Known/Suspected Criminal Activity | No minimum | 30 days | Unusual patterns, structuring |
+| Unknown Criminal Activity | ≥ $5,000 | 30 days | Inconsistent with customer profile |
+| Computer Intrusion | Any amount | 30 days | Unauthorized access, data breach |
+| Identity Theft | Any amount | 30 days | Fraudulent documents, accounts |
+
+**Cross-Reference**: For detailed investigation procedures, refer to the scenarios outlined in Table 2.2 and compare with the suspicious transaction patterns documented in Section 4.
+
+---
+
+## SECTION 3: TRUTH IN LENDING ACT (TILA) REQUIREMENTS
+
+TILA requires clear disclosure of credit terms to consumers.
+
+### Table 3.1: Required TILA Disclosures
+| Disclosure Type | Timing | Content Requirements | Form Reference |
+|-----------------|--------|---------------------|----------------|
+| Initial Disclosure | Before consummation | APR, Finance charge, Amount financed | Form TILA-1 |
+| Periodic Statement | Monthly (if applicable) | Previous balance, payments, new balance | Form TILA-2 |
+| Change in Terms | 45 days before effective | Specific changes, right to reject | Form TILA-3 |
+| Rescission Notice | At consummation | Right to cancel, procedure | Form TILA-4 |
+
+### Table 3.2: APR Calculation Components
+| Component | Description | Inclusion in APR | Example |
+|-----------|-------------|------------------|---------|
+| Base Interest Rate | Stated rate on loan | Yes | 6.5% |
+| Origination Fee | Upfront processing fee | Yes | 1% of loan amount |
+| Discount Points | Prepaid interest | Yes | 0.5% per point |
+| Private Mortgage Insurance | Required insurance | Yes | 0.3% annually |
+| Appraisal Fee | Property valuation | No | $400 flat fee |
+| Credit Report Fee | Borrower's credit check | No | $25 flat fee |
+
+**Note**: The APR calculation methodology shown in Table 3.2 must be consistently applied across all loan products to ensure TILA compliance.
+
+---
+
+## SECTION 4: ANTI-MONEY LAUNDERING (AML) PROCEDURES
+
+Our AML program identifies and reports suspicious activities that may indicate money laundering.
+
+### Table 4.1: Customer Due Diligence (CDD) Requirements
+| Customer Type | Documentation Required | Verification Method | Review Frequency |
+|---------------|------------------------|---------------------|------------------|
+| Individual | Government-issued ID, Proof of address | In-person or remote | Annual |
+| Small Business | Articles of incorporation, Business license | Document verification | Annual |
+| Large Corporation | Certified documents, Beneficial ownership | Third-party verification | Semi-annual |
+| Non-Profit | IRS determination letter, Board resolution | Enhanced verification | Quarterly |
+
+### Table 4.2: High-Risk Customer Indicators
+| Risk Factor | Description | Monitoring Level | Additional Requirements |
+|-------------|-------------|------------------|-------------------------|
+| PEP (Politically Exposed Person) | Current/former government official | Enhanced | Senior management approval |
+| High-Risk Geography | Countries with weak AML controls | Enhanced | Additional documentation |
+| Cash-Intensive Business | Businesses primarily dealing in cash | Enhanced | Monthly transaction review |
+| Shell Company | Limited business purpose/operations | Enhanced | Beneficial ownership verification |
+
+**Important**: When a customer exhibits characteristics from Table 4.2, enhanced monitoring procedures must be implemented. Cross-reference with Table 2.2 for SAR filing requirements.
+
+---
+
+## SECTION 5: FAIR LENDING COMPLIANCE
+
+Fair lending laws prohibit discrimination in credit decisions.
+
+### Table 5.1: Prohibited Bases for Credit Decisions
+| Protected Class | Law | Permitted Considerations | Monitoring Required |
+|-----------------|-----|-------------------------|---------------------|
+| Race/Color | ECOA, FHA | Credit history, income | Yes |
+| Religion | ECOA, FHA | Debt-to-income ratio | Yes |
+| National Origin | ECOA, FHA | Employment history | Yes |
+| Sex/Gender | ECOA, FHA | Collateral value | Yes |
+| Marital Status | ECOA | Individual creditworthiness | Yes |
+| Age | ECOA | Legal capacity to contract | Yes |
+| Public Assistance | ECOA | Stability of income | Yes |
+
+### Table 5.2: Fair Lending Statistical Monitoring
+| Loan Product | Approval Rate Target | Disparity Threshold | Review Frequency |
+|--------------|---------------------|---------------------|------------------|
+| Conventional Mortgages | ≥ 80% | < 10% difference | Quarterly |
+| FHA Mortgages | ≥ 85% | < 8% difference | Quarterly |
+| Personal Loans | ≥ 75% | < 12% difference | Monthly |
+| Auto Loans | ≥ 90% | < 5% difference | Monthly |
+
+**Compliance Note**: If disparities exceed thresholds in Table 5.2, immediate investigation is required. Refer to corrective action procedures in Section 6.
+
+---
+
+## SECTION 6: CORRECTIVE ACTION PROCEDURES
+
+### Table 6.1: Compliance Violation Response Matrix
+| Violation Severity | Response Time | Required Actions | Escalation Level |
+|--------------------|---------------|------------------|------------------|
+| Minor (Low Risk) | 5 business days | Document correction, Training | Department Manager |
+| Moderate (Medium Risk) | 3 business days | Immediate correction, Process review | Compliance Officer |
+| Major (High Risk) | 1 business day | Stop activity, Management notification | CEO/Board |
+| Critical (Regulatory) | Immediate | Regulatory notification, Legal counsel | Board of Directors |
+
+**Final Note**: This manual must be reviewed quarterly and updated as regulations change. For questions about any table or requirement, contact the Compliance Department immediately. 
